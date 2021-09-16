@@ -10,11 +10,19 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+p {
+  line-height: 2em;
+}
 .title {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70px;
   max-width: 700px;
+}
+.differente {
+  color: rgba(231, 0, 0, 0.918);
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
+    1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
 }
 .hero {
   justify-content: center;
@@ -23,8 +31,8 @@ body {
   align-content: center;
   width: 100%;
   height: 50%;
-  padding: 20px;
-  background-image: url(https://ex.smnarnold.com/git/radars-vivants/fillette-de-face.jpeg);
+  padding: 50px;
+  background-image: url(https://ex.smnarnold.com/git/radars-vivants/fillette-de-dos.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,5 +44,5 @@ body {
   max-width: 700px;
   display: flex;
   align-self: center;
-  padding: 20px;
+  padding: 50px;
 }
